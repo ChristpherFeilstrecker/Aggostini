@@ -6,7 +6,7 @@ EM DESENVOLVIMENTO
 
 <p align="center">
   <a href="#sobre">Sobre</a> &#xa0; | &#xa0; 
-  <a href="#surge">Surge</a> &#xa0; | &#xa0;
+  <a href="#site">Surge</a> &#xa0; | &#xa0;
   <a href="#imagens">Imagens</a> &#xa0; | &#xa0;
   <a href="#desenvolvedor">Desenvolvedor</a> | &#xa0;
 <a href="#tecnologias">Tecnologias</a> &#xa0; | &#xa0;
@@ -20,9 +20,9 @@ Projeto baseado em site e-comerce de produtos
 <br />
 
 
-<h2 id="surge"> Surge: </h2>
+<h2 id="site"> Site: </h2>
 
-[]
+[http://aggostini.com.br/]
 
 
 <h2 id="imagens"> Imagens </h2>
