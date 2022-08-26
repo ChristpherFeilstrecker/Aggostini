@@ -10,6 +10,15 @@
     align-items: center;
 
 }
+.tag-a{
+    text-decoration:none;
+    font-size: 0.8rem;
+    color:black
+}
+
+.tag-a:hover{
+color:rgb(107, 107, 175)
+}
 
 .footer-container1{
     width: 80%;

@@ -201,7 +201,7 @@ export default function DetailProductPage(props) {
                         <div className="rigth-box-title-contact-section-2">TELEFONE</div>
                         <div className="rigth-box-itens-contact-section-2">
                             <img className="rigth-icon-contact-section-2" src={iconPhoneBlue} alt="letter-icon" />
-                            <div className="rigth-box-text-contact-section-2">{parametros && parametros[0].whats} | {parametros && parametros[0].telefone}</div>
+                            <div className="rigth-box-text-contact-section-2">{parametros && parametros[0].celular} | {parametros && parametros[0].telefone}</div>
                         </div>
                     </div>
                     <div className="rigth-block-contact-section-2">

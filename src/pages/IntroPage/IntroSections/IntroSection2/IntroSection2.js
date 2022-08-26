@@ -2,7 +2,7 @@ import { SubTitleTagB } from "../../../../StyledGlobal";
 import "./StyledIntroSection2.css";
 import { useContext } from "react";
 import GlobalContext from "../../../../components/global/globalContext";
-import frente from "../../../../images/frente.jpeg"
+import frente from "../../../../images/frente.jpg"
 import logo from "../../../../images/logo.png"
 import { useNavigate } from "react-router-dom";
 

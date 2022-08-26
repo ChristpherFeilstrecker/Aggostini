@@ -1,12 +1,9 @@
 
-
-EM DESENVOLVIMENTO
-
 <h1 align="center" id="top">Projeto Aggostini</h1>
 
 <p align="center">
   <a href="#sobre">Sobre</a> &#xa0; | &#xa0; 
-  <a href="#site">Surge</a> &#xa0; | &#xa0;
+  <a href="#surge">Site</a> &#xa0; | &#xa0;
   <a href="#imagens">Imagens</a> &#xa0; | &#xa0;
   <a href="#desenvolvedor">Desenvolvedor</a> | &#xa0;
 <a href="#tecnologias">Tecnologias</a> &#xa0; | &#xa0;
@@ -20,14 +17,16 @@ Projeto baseado em site e-comerce de produtos
 <br />
 
 
-<h2 id="site"> Site: </h2>
+<h2 id="surge"> Site: </h2>
 
 [http://aggostini.com.br/]
 
 
 <h2 id="imagens"> Imagens </h2>
 
-
+![ago2](https://user-images.githubusercontent.com/87909626/186903583-e5407a14-4be1-4c2d-91b1-4e042a17ae57.jpg)
+![ago1](https://user-images.githubusercontent.com/87909626/186903584-14780497-7fd1-45b1-8849-36d7dab8b404.jpg)
+![ago3](https://user-images.githubusercontent.com/87909626/186903587-22db7efb-24bc-4b97-89c5-dc085e8e9ccb.jpg)
 
 
 
@@ -53,13 +52,10 @@ Projeto baseado em site e-comerce de produtos
 
 <h2 id="comousar"> Como usar </h2>
 
-Teste o código no seu navegador pelo surge <a href="#surge">AQUI</a> ou pelo seu computador assim:
+Teste o código no seu navegador pelo link <a href="#surge">AQUI</a> ou pelo seu computador assim:
 - Clone o código para seu computador.
 - Rode o comando npm instal (para instalar bibliotecas).
 - Rode o comando "npm run start", código ira abrir pelo localhost do seu computador.
 
 
 <a href="#top">Voltar para o topo</a>
-
-
-

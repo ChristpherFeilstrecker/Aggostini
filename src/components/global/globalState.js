@@ -15,6 +15,7 @@ export default function GlobalState(props) {
 
 const galerias = useRequestData(BASE_URL+"/galerias/")
 const parametros = useRequestData(BASE_URL+"/parametros/")
+const destaques = useRequestData(BASE_URL+"/destaques/")
 
 const json = useRequestData(BASE_URL+"/produto/")
 const produtos = json && JSON.parse(json)
@@ -96,7 +97,8 @@ const assistencia = useRequestData(BASE_URL+"/assistencias/")
         search, 
         setSearch,
         title,
-        setTitle
+        setTitle,
+        destaques
     }
 
     return (<GlobalContext.Provider value={data}>

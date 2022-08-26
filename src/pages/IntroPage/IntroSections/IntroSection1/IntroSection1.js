@@ -13,6 +13,12 @@ export default function IntroSection1() {
     const parametros = data.parametros
     const setSearch = data.setSearch
     const setTitle = data.setTitle
+    const destaques = data.destaques
+
+    let dest1 =destaques && destaques[0]
+    let dest2 =destaques && destaques[1]
+    let dest3 =destaques && destaques[2]
+    let dest4 =destaques && destaques[3]
 
 
     const setSearchFunction=(id,title)=>{
@@ -22,19 +28,23 @@ export default function IntroSection1() {
         setTitle(title)
     }
 
+
     return (
         <div id="intro-section-1">
 
             <div className="body-intro-section-1">
+                <div>
+                <img className="img-intro-section-1" src={dest1 && dest1.image} alt="destaque1"/>
+                </div>
                 
                 <div className="body-rigth-container">
                     
-                    <div className="title-rigth-container">SOLAR</div>
-                    <div className="text-rigth-container">Tudo para energia fotovoltaica </div>
+                    <div className="title-rigth-container">{dest1 && dest1.titulo}</div>
+                    <div className="text-rigth-container">{dest1 && dest1.descricao}</div>
                     <div className="btns-rigth-container">
-                     <div onClick={() => setSearchFunction("0afb5669-ac16-4af6-b6ea-38569761a07c","SOLAR")} className="btn-rigth-container-more">VER PRODUTOS</div>  
+                     <div onClick={() => setSearchFunction(dest1 && dest1.categoria,"PRODUTOS")} className="btn-rigth-container-more">VER PRODUTOS</div>  
                      <div  className="btn-rigth-container">
-                     <a href={`https://api.whatsapp.com/send?phone=${parseFloat(parametros && parametros[0].whats)}&text=Olá! Gostária de solicitar um orçamento de painel solar.`}target="_blank">
+                     <a href={`https://api.whatsapp.com/send?phone=${parseFloat(parametros && parametros[0].whats)}&text=Olá! Gostária de solicitar um orçamento de ${dest1 && dest1.titulo}.`}target="_blank">
                         ORÇAMENTO
                         </a>
                             </div> 
@@ -43,54 +53,61 @@ export default function IntroSection1() {
             </div>
 
             <div className="body-intro-section-1">
-
-                <div className="body-rigth-container">
-                   
-
-                    <div className="title-rigth-container">REPAROS</div>
-                    <div className="text-rigth-container">Soluções para a linha hidráulica </div>
-                    <div className="btns-rigth-container">
-                     <div onClick={() => setSearchFunction("1d2e97cb-c11b-4593-b6c5-0a37e59fc598","REPAROS")} className="btn-rigth-container-more">VER PRODUTOS</div>  
-                     <div className="btn-rigth-container">
-                     <a href={`https://api.whatsapp.com/send?phone=${parseFloat(parametros && parametros[0].whats)}&text=Olá! Gostária de solicitar um orçamento para reparos.`}target="_blank">
-                        ORÇAMENTO
-                        </a> </div> 
-                    </div>
+                <div>
+                <img className="img-intro-section-1" src={dest2 && dest2.image} alt="destaque1"/>
                 </div>
-
-            </div>
-
-            <div className="body-intro-section-1">
-            
+                
                 <div className="body-rigth-container">
-                  
-                    <div className="title-rigth-container">PRESSURIZADORES</div>
-                    <div className="text-rigth-container">Produtos para melhorar vazão da água em casa</div>
                     
+                    <div className="title-rigth-container">{dest2 && dest2.titulo}</div>
+                    <div className="text-rigth-container">{dest2 && dest2.descricao}</div>
                     <div className="btns-rigth-container">
-                     <div onClick={() => setSearchFunction("4b6897a4-1861-46fa-b0ad-7d9ce98e0898","PRESSURIZADORES")}  className="btn-rigth-container-more">VER PRODUTOS</div>  
-                     <div className="btn-rigth-container">
-                     <a href={`https://api.whatsapp.com/send?phone=${parseFloat(parametros && parametros[0].whats)}&text=Olá! Gostária de solicitar um orçamento de pressurizadores.`}target="_blank">
+                     <div onClick={() => setSearchFunction(dest2 && dest2.categoria,"PRODUTOS")} className="btn-rigth-container-more">VER PRODUTOS</div>  
+                     <div  className="btn-rigth-container">
+                     <a href={`https://api.whatsapp.com/send?phone=${parseFloat(parametros && parametros[0].whats)}&text=Olá! Gostária de solicitar um orçamento de ${dest2 && dest2.titulo}.`}target="_blank">
                         ORÇAMENTO
                         </a>
-                        </div> 
+                            </div> 
                     </div>
                 </div>
             </div>
 
             <div className="body-intro-section-1">
-            
+                <div>
+                <img className="img-intro-section-1" src={dest3 && dest3.image} alt="destaque1"/>
+                </div>
+                
                 <div className="body-rigth-container">
                     
-                    <div className="title-rigth-container">AQUECEDORES</div>
-                    <div className="text-rigth-container">Linha gás para sua casa</div>
+                    <div className="title-rigth-container">{dest3 && dest3.titulo}</div>
+                    <div className="text-rigth-container">{dest3 && dest3.descricao}</div>
                     <div className="btns-rigth-container">
-                     <div onClick={() => setSearchFunction("593208d5-7ea3-4719-a339-5863ae1ec1d1","AQUECEDORES")} className="btn-rigth-container-more">VER PRODUTOS </div>  
-                     <div className="btn-rigth-container">
-                     <a href={`https://api.whatsapp.com/send?phone=${parseFloat(parametros && parametros[0].whats)}&text=Olá! Gostária de solicitar um orçamento de aquecedores.`}target="_blank">
+                     <div onClick={() => setSearchFunction(dest3 && dest3.categoria,"PRODUTOS")} className="btn-rigth-container-more">VER PRODUTOS</div>  
+                     <div  className="btn-rigth-container">
+                     <a href={`https://api.whatsapp.com/send?phone=${parseFloat(parametros && parametros[0].whats)}&text=Olá! Gostária de solicitar um orçamento de ${dest3 && dest3.titulo}.`}target="_blank">
                         ORÇAMENTO
                         </a>
-                         </div> 
+                            </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div className="body-intro-section-1">
+                <div>
+                <img className="img-intro-section-1" src={dest4 && dest4.image} alt="destaque1"/>
+                </div>
+                
+                <div className="body-rigth-container">
+                    
+                    <div className="title-rigth-container">{dest4 && dest4.titulo}</div>
+                    <div className="text-rigth-container">{dest4 && dest4.descricao}</div>
+                    <div className="btns-rigth-container">
+                     <div onClick={() => setSearchFunction(dest4 && dest4.categoria,"PRODUTOS")} className="btn-rigth-container-more">VER PRODUTOS</div>  
+                     <div  className="btn-rigth-container">
+                     <a href={`https://api.whatsapp.com/send?phone=${parseFloat(parametros && parametros[0].whats)}&text=Olá! Gostária de solicitar um orçamento de ${dest4 && dest4.titulo}.`}target="_blank">
+                        ORÇAMENTO
+                        </a>
+                            </div> 
                     </div>
                 </div>
             </div>

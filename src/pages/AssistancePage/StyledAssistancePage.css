@@ -11,7 +11,7 @@ padding-bottom: 5rem;
 }
 
 .videos-container{
-    gap:3rem;
+    gap:2rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 90%;
@@ -23,8 +23,8 @@ padding-bottom: 5rem;
 }
 
 .product-container{
-  width: 90%;
-  height: 29vw;
+  width: 95%;
+  height: 45vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +34,6 @@ padding-bottom: 5rem;
 .image-product-container{
     display: flex;
     justify-content: center;
-    position: absolute;
     max-width: 20rem;
     max-width: 20rem;
     z-index: 0;
@@ -47,7 +46,6 @@ padding-bottom: 5rem;
 
 .assis-detail-product-container{
     width: 100%;
-    margin-top: -7rem;
     z-index: 10;
 }
 

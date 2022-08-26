@@ -13,36 +13,20 @@ export default function IntroSection3() {
     const assistence = data.assistencia
     const setSearch = data.setSearch
     const setTitle = data.setTitle
-    let position = 1
+   
 
     const allGaleri = galerias && galerias
         .map((galeri) => {
-            position += 1
-
-            if (position % 2 === 0) {
-                return <div data-aos="fade-up" key={galeri.id} className="galeria">
-                    <div className="galeria-produtos">
-                        <img className="image-product-sector3" src={galeri.image} alt="galeria" />
-                        <div className="text-container-galeri-sector3">
-                            <div className="text-box-galeri-sector3">
-                                {galeri.nome}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            } else {
-                return <div data-aos="fade-up" key={galeri.id} className="galeria">
+            return <div data-aos="fade-up" key={galeri.id} className="galeria">
                     <div className="galeria-produtos">
                         <div className="text-container-galeri-sector3 to-top-index">
                             <div className="text-box-left-galeri-sector3">
                                 {galeri.nome}
                             </div>
-
                         </div>
                         <img className="image-product-sector3 to-down-index" src={galeri.image} alt="galeria" />
                     </div>
                 </div>
-            }
 
         })
 

@@ -167,7 +167,7 @@ export default function ContactSection2() {
                         <div className="rigth-box-title-contact-section-2">TELEFONE</div>
                         <div className="rigth-box-itens-contact-section-2">
                             <img className="rigth-icon-contact-section-2" src={iconPhoneBlue} alt="letter-icon" />
-                            <div className="rigth-box-text-contact-section-2">{parametros && parametros[0].whats} | {parametros && parametros[0].telefone}</div>
+                            <div className="rigth-box-text-contact-section-2">{parametros && parametros[0].celular} | {parametros && parametros[0].telefone}</div>
                         </div>
                     </div>
 
@@ -191,7 +191,7 @@ export default function ContactSection2() {
                 </div>
             </div>
             <div className="visita-container">
-                <strong className="visita-text">Venho nos visitar!</strong>
+                <strong className="visita-text">Venha nos visitar!</strong>
             </div>
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1456.119677167352!2d-51.13266603468452!3d-29.770245220157214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951969a98343d553%3A0x2bd763cee3937a88!2sR.%20Bento%20Alves%2C%201525%20-%20Rio%20Branco%2C%20S%C3%A3o%20Leopoldo%20-%20RS%2C%2093032-060!5e0!3m2!1spt-BR!2sbr!4v1656527397864!5m2!1spt-BR!2sbr" width="100%" height="400" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>

@@ -34,7 +34,7 @@ useEffect(()=>{
     :
     <BrowserRouter className="page">
       <div className='whats-icon-container'>
-      <a href="https://api.whatsapp.com/send?phone=555199670268&text=Olá! Gostária de solicitar um orçamento"
+      <a href="https://api.whatsapp.com/send?phone=5551996829993&text=Olá! Gostária de solicitar um orçamento"
     target="_blank">
       <img className="whats-fixed-icon" src={iconWhats} alt="icon-whats"/>
     </a>       
@@ -43,7 +43,7 @@ useEffect(()=>{
       <Routes id="routes">
         <Route exact path={"/"} element={<IntroPage />} />
         <Route exact path={"/aggostini/sobre/*"} element={<AboutPage />} />
-        <Route exact path={"/aggostini/produtos"} element={<ProductsPage productID={productID} setProductID={setProductID} />} />
+        <Route exact path={"aggostini/produtos"} element={<ProductsPage productID={productID} setProductID={setProductID} />} />
         <Route exact path={"/aggostini/assistenciatecnica"} element={<AssistancePage />} />
         <Route exact path={"/aggostini/contato"} element={<ContactPage />} />
         <Route exact path={"/aggostini/carrinho"} element={<CartPage />} />
